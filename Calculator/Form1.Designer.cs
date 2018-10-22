@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtN1 = new System.Windows.Forms.TextBox();
             this.lbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -72,27 +73,29 @@
             // 
             // btnSum
             // 
+            this.btnSum.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSum.Image = ((System.Drawing.Image)(resources.GetObject("btnSum.Image")));
             this.btnSum.Location = new System.Drawing.Point(53, 219);
             this.btnSum.Name = "btnSum";
-            this.btnSum.Size = new System.Drawing.Size(75, 23);
+            this.btnSum.Size = new System.Drawing.Size(89, 37);
             this.btnSum.TabIndex = 4;
-            this.btnSum.Text = "+";
-            this.btnSum.UseVisualStyleBackColor = true;
+            this.btnSum.UseVisualStyleBackColor = false;
             // 
             // btnRes
             // 
+            this.btnRes.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnRes.Image = ((System.Drawing.Image)(resources.GetObject("btnRes.Image")));
             this.btnRes.Location = new System.Drawing.Point(148, 219);
             this.btnRes.Name = "btnRes";
-            this.btnRes.Size = new System.Drawing.Size(75, 23);
+            this.btnRes.Size = new System.Drawing.Size(75, 37);
             this.btnRes.TabIndex = 5;
-            this.btnRes.Text = "-";
-            this.btnRes.UseVisualStyleBackColor = true;
+            this.btnRes.UseVisualStyleBackColor = false;
             // 
             // lblResul
             // 
             this.lblResul.AutoSize = true;
             this.lblResul.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResul.Location = new System.Drawing.Point(106, 265);
+            this.lblResul.Location = new System.Drawing.Point(106, 297);
             this.lblResul.Name = "lblResul";
             this.lblResul.Size = new System.Drawing.Size(146, 31);
             this.lblResul.TabIndex = 7;
@@ -101,12 +104,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(240, 219);
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(229, 219);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(86, 37);
             this.button1.TabIndex = 8;
-            this.button1.Text = "-";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
