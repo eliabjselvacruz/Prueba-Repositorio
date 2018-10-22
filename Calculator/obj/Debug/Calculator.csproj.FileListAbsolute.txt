@@ -1,0 +1,1 @@
+C:\VCS_Git\CalculadorPrj\Calculator\Calculator\bin\Debug\Calculator.exe.config
